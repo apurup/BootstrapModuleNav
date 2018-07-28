@@ -28,6 +28,7 @@
 
 }
 
+
 .nav{
     display: flex;
     flex-direction: row;
@@ -49,6 +50,9 @@
     font-size: 1em;
     color: blue;
     transition: 0.5s;
+}
+.form-control{
+    -webkit-appearance: none;
 }
 .form-control:focus{
     outline: none;
